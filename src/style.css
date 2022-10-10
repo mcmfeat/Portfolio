@@ -1,6 +1,6 @@
 :root {
   --primary-color: #5db892;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #f5f5f5d7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --padding-button: 20px 15px;
   --padding-button-sm: 10px 8px;
@@ -30,6 +30,7 @@ h2 {
 h3 {
   font-size: 20px;
   opacity: 0.7;
+  padding: 20px;
 }
 
 p {
@@ -68,7 +69,12 @@ a {
   text-align: center;
 }
 
-.navigation-links {
+.hero {
+  background: var(--secondary-color);
+  padding: 20px;
+}
+
+.navigation-link {
   text-decoration: none;
   text-transform: capitalize;
   display: flex;
@@ -78,17 +84,11 @@ a {
   padding: var(--padding-button);
 }
 
-.navigation-links a {
+.navigation-link a {
   margin: 20px;
   border-radius: 4px;
   padding: var(--padding-button);
   text-decoration: none;
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
 }
 
 .about-paragraphs {
