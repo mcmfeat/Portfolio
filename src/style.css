@@ -1,0 +1,174 @@
+:root {
+  --primary-color: #5db892;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --padding-button: 20px 15px;
+  --padding-button-sm: 10px 8px;
+}
+
+body {
+  margin-top: 100px;
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+a {
+  transition: all 200ms ease;
+}
+
+.logo {
+  width: 50%;
+  border-radius: 50px;
+}
+
+.img-profile {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.primary-link {
+  color: white;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.home-description {
+  margin: 50px;
+  text-align: center;
+}
+
+.navigation-links {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  border-radius: 4px;
+  padding: var(--padding-button);
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: var(--padding-button);
+  text-decoration: none;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .img-cross {
+    display: none;
+  }
+
+  .img-weather {
+    display: none;
+  }
+
+  .img-random {
+    display: none;
+  }
+
+  .navigation-links a {
+    padding: var(--padding-button-sm);
+  }
+
+  .navigation-links {
+    padding: var(--padding-button-sm);
+    margin: 20px 0px;
+  }
+
+  .visit-button {
+    justify-content: center !important;
+  }
+
+  .img-about {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+  }
+
+  .about-paragraphs {
+    font-size: 14px;
+  }
+
+  .email-link {
+    font-size: 14px;
+  }
+}
