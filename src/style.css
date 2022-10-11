@@ -54,7 +54,7 @@ p {
 .img-profile {
   display: block;
   margin: 0 auto;
-  width: 200px;
+  max-width: 200px;
   border-radius: 100px;
 }
 
@@ -112,7 +112,7 @@ p {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 48px;
+    font-size: 38px;
   }
 
   h2 {
@@ -131,15 +131,11 @@ p {
     font-size: 14px;
   }
 
-  .img-cross {
-    display: none;
-  }
+.img-profile {
+max-width: 100px;
+}
 
-  .img-weather {
-    display: none;
-  }
-
-  .img-random {
+  .img-cross, .img-weather, .img-random {
     display: none;
   }
 
