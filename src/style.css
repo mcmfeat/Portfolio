@@ -2,8 +2,8 @@
   --primary-color: #65b996a1;
   --secondary-color: #f8f9fa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --padding-button: 20px 15px;
-  --padding-button-sm: 10px 8px;
+  --padding-button: 20px 50px;
+  --padding-button-sm: 12px 10px;
 }
 
 body {
@@ -87,10 +87,6 @@ p {
 
 .visit-button {
   margin-top: 30px;
-}
-
-.visit-button a {
-  padding: 20px 50px;
 }
 
 .about-paragraphs {
