@@ -51,6 +51,10 @@ a {
   border-radius: 50px;
 }
 
+.active {
+  font-weight: bold;
+}
+
 .img-profile {
   display: block;
   margin: 0 auto;
