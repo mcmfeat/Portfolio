@@ -42,10 +42,6 @@ p {
   text-align: center;
 }
 
-a {
-  transition: all 200ms ease;
-}
-
 .logo {
   width: 50%;
   border-radius: 50px;
@@ -62,10 +58,21 @@ a {
   border-radius: 100px;
 }
 
-.primary-link {
-  color: white;
-  background: var(--primary-color);
+.navigation-link {
+  text-transform: capitalize;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.navigation-link a {
+  border-radius: 4px;
+  padding: var(--padding-button);
+  text-decoration: none;
+  transition: all 200ms ease;
   box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+  color: white;
 }
 
 .home-description {
@@ -78,21 +85,12 @@ a {
   padding: 20px;
 }
 
-.navigation-link {
-  text-decoration: none;
-  text-transform: capitalize;
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  border-radius: 4px;
-  padding: var(--padding-button);
+.visit-button {
+  margin-top: 30px;
 }
 
-.navigation-link a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: var(--padding-button);
-  text-decoration: none;
+.visit-button a {
+  padding: 20px 50px;
 }
 
 .about-paragraphs {
@@ -112,17 +110,13 @@ a {
   text-decoration: none;
 }
 
-.email-link:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 600px) {
   h1 {
     font-size: 48px;
   }
 
   h2 {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   h3 {
@@ -149,16 +143,13 @@ a {
     display: none;
   }
 
-  .navigation-links a {
+  .navigation-link a {
     padding: var(--padding-button-sm);
   }
 
-  .navigation-links {
+  .navigation-link {
     padding: var(--padding-button-sm);
     margin: 20px 0px;
-  }
-
-  .visit-button {
     justify-content: center !important;
   }
 
