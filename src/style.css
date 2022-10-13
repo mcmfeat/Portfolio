@@ -42,6 +42,16 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  transition: all 200ms ease;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: black;
+}
+
 .logo {
   width: 50%;
   border-radius: 50px;
@@ -92,9 +102,36 @@ p {
 .about-paragraphs {
   display: flex;
   margin: 30px;
+  padding: 20px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.my-experience {
+  margin: 20px;
+  padding: 20px;
+}
+
+.my-experience p {
+  text-align: justify;
+}
+
+.curriculum {
+  padding: 10px;
+  text-align: center !important;
+}
+
+.skill-name {
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+.skill-image img {
+    width: 60%;
+    height: 35px;
+    margin-bottom: 5px;
+    object-fit: contain;
 }
 
 .email-link {
@@ -127,11 +164,13 @@ p {
     font-size: 14px;
   }
 
-.img-profile {
-max-width: 100px;
-}
+  .img-profile {
+    max-width: 100px;
+  }
 
-  .img-cross, .img-weather, .img-random {
+  .img-cross,
+  .img-weather,
+  .img-random {
     display: none;
   }
 
@@ -143,12 +182,6 @@ max-width: 100px;
     padding: var(--padding-button-sm);
     margin: 20px 0px;
     justify-content: center !important;
-  }
-
-  .img-about {
-    display: block;
-    margin: 0 auto;
-    max-width: 250px;
   }
 
   .about-paragraphs {
