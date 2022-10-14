@@ -180,7 +180,8 @@ a:hover {
   .img-cross,
   .img-weather,
   .img-random,
-  .img-about {
+  .img-about,
+  .img-book {
     display: none;
   }
 
