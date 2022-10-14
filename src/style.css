@@ -131,16 +131,20 @@ a:hover {
   margin: 0 auto;
 }
 
+.content-table {
+  margin: 40px;
+}
+
 .skill-name {
-    padding-bottom: 15px;
-    font-size: 12px;
+  padding-bottom: 15px;
+  font-size: 12px;
 }
 
 .skill-image img {
-    width: 60%;
-    height: 35px;
-    margin-bottom: 5px;
-    object-fit: contain;
+  width: 60%;
+  height: 35px;
+  margin-bottom: 5px;
+  object-fit: contain;
 }
 
 .email-link {
@@ -181,7 +185,8 @@ a:hover {
   .img-weather,
   .img-random,
   .img-about,
-  .img-book {
+  .img-book,
+  .img-portfolio {
     display: none;
   }
 
