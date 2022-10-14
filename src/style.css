@@ -108,18 +108,27 @@ a:hover {
   text-align: center;
 }
 
+.title-about {
+  text-decoration: underline;
+}
+
 .my-experience {
   margin: 20px;
   padding: 20px;
 }
 
 .my-experience p {
-  text-align: justify;
+  text-align: initial;
 }
 
 .curriculum {
   padding: 10px;
   text-align: center !important;
+}
+
+.img-about {
+  display: block;
+  margin: 0 auto;
 }
 
 .skill-name {
@@ -170,7 +179,8 @@ a:hover {
 
   .img-cross,
   .img-weather,
-  .img-random {
+  .img-random,
+  .img-about {
     display: none;
   }
 
