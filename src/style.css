@@ -198,6 +198,10 @@ footer i {
   text-decoration: none;
 }
 
+.contact-email {
+  margin-bottom: 300px;
+}
+
 .disclaimer {
   font-size: 10px;
 }
