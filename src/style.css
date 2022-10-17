@@ -52,6 +52,30 @@ a:hover {
   color: black;
 }
 
+footer {
+  background: var(--secondary-color);
+  margin-top: 30px;
+  padding: 0 30px 30px;
+  font-size: 14px;
+}
+
+footer img {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40px;
+  border-radius: 50px;
+}
+
+footer h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+footer i {
+  font-size: 16px;
+}
+
 .logo {
   width: 50%;
   border-radius: 50px;
@@ -174,6 +198,10 @@ a:hover {
   text-decoration: none;
 }
 
+.disclaimer {
+  font-size: 10px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 38px;
@@ -193,6 +221,10 @@ a:hover {
 
   p {
     font-size: 14px;
+  }
+
+  footer h3 {
+    display: inline-flex;
   }
 
   .img-profile {
