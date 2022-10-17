@@ -163,10 +163,14 @@ footer i {
   object-fit: contain;
 }
 
+.navigation-tabs-work {
+  margin: 80px 50px;
+}
+
 .tabs-nav {
   font-size: 20px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 10px 80px;
   border-radius: 8px;
 }
 
@@ -258,8 +262,13 @@ footer i {
     font-size: 14px;
   }
 
+  .navigation-tabs-work {
+    margin: 50px;
+  }
+
   .tabs-nav {
     font-size: 14px;
+    padding: 10px 50px;
   }
 
   .email-link {
